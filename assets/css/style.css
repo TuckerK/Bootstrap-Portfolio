@@ -1,0 +1,64 @@
+.footer {
+  position: relative;
+  bottom: 0px;
+  text-align: center;
+}
+
+.content-area {
+  margin-top: 40px;
+}
+
+.connect {
+  margin-top: 40px;
+}
+
+#profilepic {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 15px;
+}
+#nav_container {
+  width: 500px;
+  margin: 0, auto;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+#message_box {
+  margin-bottom: 10px;
+}
+
+.portimages {
+  transition: 0.4s;
+  float: left;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+}
+
+.wrapper {
+  width: 200px;
+  height: 150px;
+}
+
+.wrapper .text {
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  color: white;
+  text-shadow: 2px 2px #333333;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.wrapper a {
+  text-decoration: none;
+}
+
+.wrapper:hover .portimages {
+  transition: 0.7s;
+  opacity: 0.5;
+}

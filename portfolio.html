@@ -2,13 +2,14 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
 
     <!-- Style -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Title -->
@@ -17,14 +18,17 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-inverse bg-light">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Tucker King</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
+            aria-expanded="false" aria-label="Toggle navigation" style="">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About
                         <span class="sr-only">(current)</span>
@@ -41,19 +45,71 @@
     </nav>
     <div class="container">
         <div class="row">
-            <div class="col-md-5 offset-md-2 bg-primary">
-                2
-                <!-- Main Content -->
+            <div class="content-area col-md-6" ->
+                <div class="well well-lg">
+                    <h2>Portfolio</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="wrapper">
+                                <a href="#">
+                                    <img class="portimages img-rounded" src="assets/images/hangman.jpg" class="hover">
+                                    <p class="text">Hangman</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="wrapper">
+                                <a href="#">
+                                    <img class="portimages img-rounded" src="assets/images/RPGgame.jpg" class="hover">
+                                    <p class="text">RPG Game</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="wrapper">
+                                <a href="#">
+                                    <img class="portimages img-rounded" src="assets/images/rutgersinfowidget.jpg" class="hover">
+                                    <p class="text">Rutgers Info Widget</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="wrapper">
+                                <a href="#">
+                                    <img class="portimages img-rounded" src="assets/images/triviagame.jpg" class="hover">
+                                    <p class="text">Trivia Game</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 bg-alert">
-                3
-                <!-- Connect -->
+
+            <div class="col-md-4 offset-1">
+                <div class="connect well well-lg">
+                    <h4>Connect with Me</h4>
+                    <br>
+                    <div class="btn-group">
+                        <a href="github.com" class="btn btn-sm btn-inverse">GitHub</a>
+                        <a href="github.com" class="btn btn-sm btn-inverse">LinkedIn</a>
+                        <a href="github.com" class="btn btn-sm btn-inverse">StackOverflow</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        4
+    <div class="row">
+        <div class="col-md-12 footer">
+            <p>Copyright 2017 Tucker King</p>
+        </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
 </html>
