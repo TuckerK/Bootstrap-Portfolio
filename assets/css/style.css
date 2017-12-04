@@ -23,14 +23,6 @@
   margin: 0, auto;
 }
 
-.input {
-  margin-bottom: 10px;
-}
-
-#message_box {
-  margin-bottom: 10px;
-}
-
 .portimages {
   transition: 0.4s;
   float: left;
